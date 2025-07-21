@@ -1,7 +1,7 @@
 function numberChecker(number) {
-  if (number === 6) {
+  if (number === 10 || 1000)  {
     return true;
-  } else {
+  } else if (number === 6 || 9) {
     return false;
   }
 }
